@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3505;
+package JavaCollection.task3505;
 
 public class ConvertableUser implements Convertable<Integer> {
     private Integer id;

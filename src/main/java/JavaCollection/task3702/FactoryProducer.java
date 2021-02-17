@@ -1,7 +1,7 @@
-package JavaCollection.task35.task3702;
+package JavaCollection.task3702;
 
-import JavaCollection.task35.task3702.female.FemaleFactory;
-import JavaCollection.task35.task3702.male.MaleFactory;
+import JavaCollection.task3702.female.FemaleFactory;
+import JavaCollection.task3702.male.MaleFactory;
 
 public class FactoryProducer {
 

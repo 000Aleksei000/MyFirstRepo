@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3501;
+package JavaCollection.task3501;
 
 /* 
 Вызов статического метода

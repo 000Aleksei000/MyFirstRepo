@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3508;
+package JavaCollection.task3508;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3511;
+package JavaCollection.task3511;
 
 import java.util.ArrayList;
 import java.util.Collection;

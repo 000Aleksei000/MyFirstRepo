@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3507;
+package JavaCollection.task3507;
 
 public interface Animal {
 }

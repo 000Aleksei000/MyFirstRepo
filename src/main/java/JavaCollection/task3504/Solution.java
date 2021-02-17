@@ -1,8 +1,7 @@
-package JavaCollection.task35.task3504;
+package JavaCollection.task3504;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 /* 
 Простой generics

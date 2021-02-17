@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3512;
+package JavaCollection.task3512;
 
 /* 
 Генератор объектов

@@ -1,6 +1,6 @@
-package JavaCollection.task35.task3507.data;
+package JavaCollection.task3507.data;
 
-import JavaCollection.task35.task3507.Animal;
+import JavaCollection.task3507.Animal;
 
 public class Sheep implements Animal {
     private Sheep() {

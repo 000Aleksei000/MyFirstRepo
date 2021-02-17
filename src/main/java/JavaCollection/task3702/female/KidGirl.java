@@ -1,7 +1,7 @@
-package JavaCollection.task35.task3702.female;
+package JavaCollection.task3702.female;
 
 
-import JavaCollection.task35.task3702.Human;
+import JavaCollection.task3702.Human;
 
 public class KidGirl implements Human {
     public static final byte MAX_AGE = 12;

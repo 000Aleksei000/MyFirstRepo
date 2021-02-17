@@ -1,7 +1,6 @@
-package JavaCollection.task35.task3510;
+package JavaCollection.task3510;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /* 

@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3510;
+package JavaCollection.task3510;
 
 public class Puppy extends Dog {
 

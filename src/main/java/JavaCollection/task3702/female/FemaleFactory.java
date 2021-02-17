@@ -1,8 +1,8 @@
-package JavaCollection.task35.task3702.female;
+package JavaCollection.task3702.female;
 
 
-import JavaCollection.task35.task3702.AbstractFactory;
-import JavaCollection.task35.task3702.Human;
+import JavaCollection.task3702.AbstractFactory;
+import JavaCollection.task3702.Human;
 
 public class FemaleFactory implements AbstractFactory {
     public Human getPerson(int age){

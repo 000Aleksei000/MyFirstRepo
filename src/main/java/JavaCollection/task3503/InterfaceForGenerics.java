@@ -1,4 +1,4 @@
-package JavaCollection.task35.task3503;
+package JavaCollection.task3503;
 
 public interface InterfaceForGenerics {
 }
