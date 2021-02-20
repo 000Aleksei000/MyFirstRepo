@@ -33,6 +33,17 @@ public class Solution {
     }
 
     public synchronized String getPartOfString(String string, String threadName) {
-        return null;
+        int firstTub = string.indexOf("\t");
+        int lastTub = string.lastIndexOf("\t");
+        if(firstTub == lastTub && threadName.equals(Solution.FIRST_THREAD_NAME)){
+            throw new StringForFirstThreadTooShortException(new StringIndexOutOfBoundsException("String index out of range: -1"));
+        }
+        if(firstTub == lastTub && threadName.equals(Solution.SECOND_THREAD_NAME)){
+            throw new StringForSecondThreadTooShortException(new StringIndexOutOfBoundsException("String index out of range: -1"));
+        }
+        if(firstTub == lastTub){
+            throw new RuntimeException(new StringIndexOutOfBoundsException("String index out of range: -1"));
+        }
+        return string.substring(firstTub, lastTub);
     }
 }
