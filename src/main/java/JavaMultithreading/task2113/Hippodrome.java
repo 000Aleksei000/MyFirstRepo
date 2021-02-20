@@ -2,6 +2,8 @@ package JavaMultithreading.task2113;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class Hippodrome {
     private List<Horse> horses;
@@ -42,6 +44,32 @@ public class Hippodrome {
         for(Horse horse : horses){
             horse.move();
         }
+    }
+
+    public Horse getWinner(){
+        /*Map<Double, String> map =  new TreeMap<>();*/
+        double maxResult = 0;
+        for(Horse horse : horses){
+            if(horse.getDistance()>maxResult){
+                maxResult = horse.getDistance();
+            }
+        }
+        for(Horse horse : horses){
+            if(horse.getDistance() == maxResult){
+                return horse;
+            }
+        }
+        /*
+        for (Map.Entry<Double, String> twice : map.entrySet()) {
+            if(twice.getKey()>maxResult){
+                maxResult = twice.getKey();
+            }
+        }*/
+        return null;
+    }
+
+    public void printWinner(){
+        System.out.println("Winner is " + getWinner().getName() + "!");
     }
 
 
