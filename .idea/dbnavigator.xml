@@ -35,10 +35,19 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="1bc1f197-9531-4e13-9c17-95732051182b" object-ref="schemas/cities/tables/users" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="1bc1f197-9531-4e13-9c17-95732051182b" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="1bc1f197-9531-4e13-9c17-95732051182b" dataset="cities.users" active-filter-id="46f0fc97-83a0-429c-bd2b-7e7ab71465b8">
+      <filter id="46f0fc97-83a0-429c-bd2b-7e7ab71465b8" name="1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="1" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
