@@ -8,6 +8,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.security.MessageDigest;
 import java.util.*;
 
 /*
@@ -18,14 +19,7 @@ import java.util.*;
 //india.colorado.edu 13
 
 public class Solution {
-    public static void main(String[] args) throws IOException {
-        try (Socket socket = new Socket()) {
-            socket.connect(new InetSocketAddress("india.colorado.edu", 13), 2000);
-            BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            String s = " ";
-            while ((s = reader.readLine())!=null){
-                System.out.println(s);
-            }
+        public static void main(String[] args) throws Exception {
+            
         }
     }
-}

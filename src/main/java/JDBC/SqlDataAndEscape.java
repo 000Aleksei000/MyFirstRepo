@@ -7,8 +7,7 @@ public class SqlDataAndEscape {
     static String Url = "jdbc:mysql://localhost:3306/cities";
     static String name = "root";
     static String password = "8158767Lexx.";
-
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
         try (Connection connection = DriverManager.getConnection(Url, name, password);
              Statement statement = connection.createStatement()) {
             statement.execute("DROP table if exists users");

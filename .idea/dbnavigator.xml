@@ -31,7 +31,10 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="1bc1f197-9531-4e13-9c17-95732051182b">
-      <console name="Connection" type="STANDARD" schema="cities" session="Main" />
+      <console name="Connection" type="STANDARD" schema="cities" session="Main"><![CDATA[create PROCEDURE UsersCount (OUT cnt INT)
+BEGIN
+    select count(*) into cnt from users;
+END]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
