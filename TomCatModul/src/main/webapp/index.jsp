@@ -17,6 +17,22 @@
     <br/>
     <br/>
     <a href="ServletLiveCycle">Servlet live cycle</a>
+    <br/>
+    <br/>
+    <a href="ParamServlet">Servlet with Get and Post Method</a>
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p align="center">
+    <a href="/temp">Temp Servlet</a>
 </p>
 </body>
 </html>
