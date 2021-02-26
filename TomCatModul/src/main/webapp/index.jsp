@@ -14,6 +14,9 @@
 <br/>
 <br/>
 <a href="go">GogoGO</a>
+    <br/>
+    <br/>
+    <a href="ServletLiveCycle">Servlet live cycle</a>
 </p>
 </body>
 </html>
