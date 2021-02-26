@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/EE" />
+    <file type="web" url="file://$PROJECT_DIR$/MyFirstTomCat" />
+    <file type="web" url="file://$PROJECT_DIR$/test" />
+    <file type="web" url="file://$PROJECT_DIR$/TomCatModul" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/TomCatModul/pom.xml" />
       </list>
     </option>
   </component>
