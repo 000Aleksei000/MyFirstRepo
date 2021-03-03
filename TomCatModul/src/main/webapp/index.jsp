@@ -55,6 +55,12 @@
     <br>
     <br>
     <a href="jsp/JavaCodeIn_JSP.jsp">Java code in JSP</a>
+    <br>
+    <br>
+    <a href="jsp/JavaEdit.jsp">Java Edit</a>
+    <br>
+    <br>
+    <a href="jsp/PredefinedVariables.jsp">Predefined Variables</a>
 </p>
 </body>
 </html>
