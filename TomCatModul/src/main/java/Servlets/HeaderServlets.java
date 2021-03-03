@@ -31,5 +31,6 @@ public class HeaderServlets extends HttpServlet {
         for (Map.Entry<String, String[]> twice : parametrs.entrySet()) {
             System.out.println(twice.getKey() + Arrays.toString(twice.getValue()));
         }*/
+        resp.sendRedirect("/HeaderServlet");
     }
 }
