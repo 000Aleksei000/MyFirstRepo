@@ -61,6 +61,9 @@
     <br>
     <br>
     <a href="jsp/PredefinedVariables.jsp">Predefined Variables</a>
+    <br>
+    <br>
+    <a href="jsp/IncludeDirective.jsp">Include Directive</a>
 </p>
 </body>
 </html>
