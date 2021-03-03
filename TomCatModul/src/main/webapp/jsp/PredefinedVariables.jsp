@@ -11,6 +11,17 @@
     <title>PredefinedVariables</title>
 </head>
 <body>
-
+<h2>JSP has some Predefined Variables. Check this down.</h2>
+<%="1.request...."%> <br>
+<%="2.response..."%> <br>
+<%="3.session..."%> <br>
+<%="4.application..."%> <br>
+<%="5.config..."%> <br>
 </body>
 </html>
+<%--
+<%=request.getMethod()%>
+<%=session.getAttribute("")%>
+<%=response.setStatus(200)%>
+<%=application.getContextPath()%>
+<%=config.getServletName()%>--%>
