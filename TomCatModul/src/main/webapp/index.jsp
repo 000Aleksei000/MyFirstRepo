@@ -2,15 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>My first page for training</title>
 </head>
 <body>
 <h1 align="center" style="color: #ff2418"><%= "Hello World!" %>
 </h1>
 <br/>
-<h2 align="center" >This is my Html for training.</h2>
+<h2 align="center" >1.This is description and work Servlets</h2>
 <br/>
-<p align="center"> <a href="hello-servlet">Hello Servlet</a>
+<p align="center">
+    <a href="hello-servlet">Hello Servlet</a>
 <br/>
 <br/>
 <a href="go">GogoGO</a>
@@ -45,15 +46,15 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <p align="center">
     <a href="/temp">Temp Servlet</a>
+</p>
+<h2 align="center">2.This is description and work JSP</h2>
+<p align="center">
+    <a href="/jsp/First.jsp">First Jsp</a>
+    <br>
+    <br>
+    <a href="jsp/JavaCodeIn_JSP.jsp">Java code in JSP</a>
 </p>
 </body>
 </html>
