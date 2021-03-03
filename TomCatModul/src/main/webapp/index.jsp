@@ -23,6 +23,9 @@
     <br>
     <br>
     <a href="HeaderServlet">Header Servlet</a>
+    <br>
+    <br>
+    <a href="GzipServlet">Gzip Servlet</a>
 </p>
 <br/>
 <br/>
