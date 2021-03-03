@@ -20,6 +20,9 @@
     <br/>
     <br/>
     <a href="ParamServlet">Servlet with Get and Post Method</a>
+    <br>
+    <br>
+    <a href="HeaderServlet">Header Servlet</a>
 </p>
 <br/>
 <br/>

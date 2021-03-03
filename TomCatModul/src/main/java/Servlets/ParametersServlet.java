@@ -39,7 +39,7 @@ public class ParametersServlet extends HttpServlet {
                 "<body>" +
                 "Login = " + " " +
                 "            Password = "  +
-                "<form action = 'temp' method = 'post'>" +
+                "<form action = 'ParamServlet' method = 'post'>" +
                 "<input type = 'text' name = 'one'/>" +
                 "<input type = 'text' name = 'two'/>" +
                 "<input type = 'submit' name = 'Submit'/>" +
