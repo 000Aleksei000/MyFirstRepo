@@ -35,6 +35,12 @@
     <br>
     <br>
     <a href="Session">Session Servlet</a>
+    <br>
+    <br>
+    <a href="/synchServlet">Synch Servlet</a>
+    <br>
+    <br>
+    <a href="/Async">Async Servlet</a>
 </p>
 <br/>
 <br/>
