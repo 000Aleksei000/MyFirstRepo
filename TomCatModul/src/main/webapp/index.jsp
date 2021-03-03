@@ -25,13 +25,16 @@
     <a href="HeaderServlet">Header Servlet</a>
     <br>
     <br>
-    <a href="GzipServlet">Gzip Servlet But he don't work </a>
+    <a href="GzipServlet">Gzip Servlet But he don't work</a>
     <br>
     <br>
     <a href="StatusServlet">Status Servlet</a>
     <br>
     <br>
     <a href="Cookie">Cookie</a>
+    <br>
+    <br>
+    <a href="Session">Session Servlet</a>
 </p>
 <br/>
 <br/>
