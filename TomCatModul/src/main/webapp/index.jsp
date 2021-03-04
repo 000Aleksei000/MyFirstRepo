@@ -51,7 +51,7 @@
 </p>
 <h2 align="center">2.This is description and work JSP</h2>
 <p align="center">
-    <a href="/jsp/First.jsp">First Jsp</a>
+    <a href="${pageContext.request.contextPath}/firstJSP">First Jsp</a>
     <br>
     <br>
     <a href="jsp/JavaCodeIn_JSP.jsp">Java code in JSP</a>
@@ -64,6 +64,9 @@
     <br>
     <br>
     <a href="jsp/IncludeDirective.jsp">Include Directive</a>
+    <br>
+    <br>
+    <a href="jsp/Redirect.jsp">Redirect</a>
 </p>
 </body>
 </html>
