@@ -12,4 +12,12 @@
         <servlet-name>First</servlet-name>
         <url-pattern>/firstJSP</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Forward</servlet-name>
+        <jsp-file>/jsp/Forward.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Forward</servlet-name>
+        <url-pattern>/forward</url-pattern>
+    </servlet-mapping>
 </web-app>

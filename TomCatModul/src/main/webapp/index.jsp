@@ -67,6 +67,11 @@
     <br>
     <br>
     <a href="jsp/Redirect.jsp">Redirect</a>
+    <br>
+    <br>
+    <a href="${pageContext.request.contextPath}/forward">Forward</a>
+    <br>
+    <br>
 </p>
 </body>
 </html>
