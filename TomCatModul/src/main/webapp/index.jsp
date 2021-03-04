@@ -54,27 +54,28 @@
     <a href="${pageContext.request.contextPath}/firstJSP">First Jsp</a>
     <br>
     <br>
-    <a href="jsp/JavaCodeIn_JSP.jsp">Java code in JSP</a>
+    <a href="webapps.jsp/JavaCodeIn_JSP.jsp">Java code in JSP</a>
     <br>
     <br>
-    <a href="jsp/JavaEdit.jsp">Java Edit</a>
+    <a href="webapps.jsp/JavaEdit.jsp">Java Edit</a>
     <br>
     <br>
-    <a href="jsp/PredefinedVariables.jsp">Predefined Variables</a>
+    <a href="webapps.jsp/PredefinedVariables.jsp">Predefined Variables</a>
     <br>
     <br>
-    <a href="jsp/IncludeDirective.jsp">Include Directive</a>
+    <a href="webapps.jsp/IncludeDirective.jsp">Include Directive</a>
     <br>
     <br>
-    <a href="jsp/Redirect.jsp">Redirect</a>
+    <a href="webapps.jsp/Redirect.jsp">Redirect</a>
     <br>
     <br>
     <a href="${pageContext.request.contextPath}/forward">Forward</a>
     <br>
     <br>
-    <a href="jsp/SessionJSP.jsp">Session JSP</a>
+    <a href="webapps.jsp/SessionJSP.jsp">Session JSP</a>
     <br>
     <br>
+    <a href="webapps.jsp/Bean.jsp">Bean</a>
 </p>
 </body>
 </html>

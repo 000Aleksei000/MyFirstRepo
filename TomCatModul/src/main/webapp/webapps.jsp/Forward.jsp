@@ -11,10 +11,11 @@
     <title>Forward</title>
 </head>
 <body>
-<h2>You can forward in google.com</h2>
-<%
+<h2>You can't forward in another site</h2>
+<jsp:forward page="/firstJSP"></jsp:forward>
+<%--<%
     RequestDispatcher requestDispatcher = request.getRequestDispatcher("/firstJSP");
     requestDispatcher.forward(request, response);
-%>
+%>--%>
 </body>
 </html>
