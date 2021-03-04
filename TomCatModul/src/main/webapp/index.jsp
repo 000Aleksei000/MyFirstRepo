@@ -72,6 +72,9 @@
     <a href="${pageContext.request.contextPath}/forward">Forward</a>
     <br>
     <br>
+    <a href="jsp/SessionJSP.jsp">Session JSP</a>
+    <br>
+    <br>
 </p>
 </body>
 </html>

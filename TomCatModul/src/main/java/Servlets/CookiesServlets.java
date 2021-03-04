@@ -21,9 +21,6 @@ public class CookiesServlets extends HttpServlet {
         cookie.setPath("/Cookie");    //Cookie set and visible only this domain
 //        cookie.setSecure(true);   //Cookie visible only for https connection
         resp.addCookie(cookie );
-
-
-
   //      cookie.setMaxAge(); //Time after cookie will delete;Time in second
     }
 }
