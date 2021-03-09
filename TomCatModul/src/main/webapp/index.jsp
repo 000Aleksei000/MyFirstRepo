@@ -76,6 +76,9 @@
     <br>
     <br>
     <a href="webapps.jsp/Bean.jsp">Bean</a>
+    <br>
+    <br>
+    <h3 align="center"><a href="/controller"> Controller </a></h3>
 </p>
 </body>
 </html>

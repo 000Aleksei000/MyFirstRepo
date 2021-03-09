@@ -11,7 +11,7 @@
     <title>Bean</title>
 </head>
 <body>
-<jsp:useBean id="Person" class="jsp.Person"/>
+<jsp:useBean id="Person" class="jsp.Student"/>
 <jsp:setProperty name="Person" property="name" value="Tom"/>
 <jsp:getProperty name="Person" property="name"/>
 </body>
