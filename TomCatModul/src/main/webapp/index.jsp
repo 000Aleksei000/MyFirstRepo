@@ -42,6 +42,9 @@
     <br>
     <br>
     <a href="/Async">Async Servlet</a>
+    <br>
+    <br>
+    <a href="/initParamServlet">this.getServletConfig().getInitParameterNames()</a>
 </p>
 <br/>
 <br/>
