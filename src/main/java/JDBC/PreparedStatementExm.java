@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class PreparedStatementExm {
     static String name = "root";
-    static String password = "8158767Lexx.";
+    static String password = "root";
     static String URL = "jdbc:mysql://localhost:3306/cities";
 
     public static void main(String[] args) {

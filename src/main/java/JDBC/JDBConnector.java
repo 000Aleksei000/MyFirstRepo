@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class JDBConnector {
     public static void main(String[] args) throws ClassNotFoundException {
         String userName = "root";
-        String password = "8158767Lexx.";
+        String password = "root";
         String connectionUrl = "jdbc:mysql://localhost:3306/cities";
         Class.forName("com.mysql.cj.jdbc.Driver");
         try (Connection connection = DriverManager.getConnection(connectionUrl,userName,password)) {

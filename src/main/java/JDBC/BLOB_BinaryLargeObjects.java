@@ -10,7 +10,7 @@ import java.sql.*;
 public class BLOB_BinaryLargeObjects {
     static String Url = "jdbc:mysql://localhost:3306/cities";
     static String name = "root";
-    static String password = "8158767Lexx.";
+    static String password = "root";
 
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(Url, name, password);
