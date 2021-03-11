@@ -44,7 +44,10 @@
     <a href="/Async">Async Servlet</a>
     <br>
     <br>
-    <a href="/initParamServlet">this.getServletConfig().getInitParameterNames()</a>
+    <a href="/initParamServlet">this.getServletConfig().getInitParameterNames()</a><br><br>
+    <a href="/sdfasfadf">Error servlet(404)</a><br><br>
+    <a href="exception">Exception servlet</a>
+
 </p>
 <br/>
 <br/>
@@ -86,7 +89,9 @@
     <a href="ELController">EL Controller</a>
     <br><br>
     <a href="contextServlet">Context Servlet. First run his.</a> <br><br>
-    <a href="contextReadServlet">Context Read Servlet</a>
+    <a href="contextReadServlet">Context Read Servlet</a> <br><br>
+
+
 </p>
 </body>
 </html>
